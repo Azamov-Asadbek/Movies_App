@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  transition: all 0.3s ease;
+}
+body {
+  transition: all 0.3s ease;
+}
+
+.lists .lists-item {
+  padding: 5px 12px;
+  border-bottom: 1px dotted #17212b35;
+  color: #17212b;
+  margin: 5px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lists .lists-item.active_item {
+  color: orange;
+  transition: all 0.3s ease;
+}
+.lists .lists-item:hover {
+  color: orange;
+  background: #fdf6e315;
+  border-radius: 4px;
+}
+.lists {
+  list-style-type: none;
+  background-color: ;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.card-bottom-text .card-name {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.card-rate {
+  font-size: 16px;
+}
+.card-rate span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.next-icon {
+  color: orange;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.next-icon:hover {
+  color: #17212b;
+}
+.list-inline-item a {
+  font-size: 25px;
+  text-decoration: none;
+  color: orange;
+  transition: all 0.3s ease;
+}
+.list-inline-item a:hover {
+  color: rgba(255, 166, 0, 0.823);
+}
